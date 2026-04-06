@@ -25,7 +25,7 @@ public class Main {
 
         System.out.print("\nToday I went to a "+adjective1+" zoo. ");
         System.out.print("In an exhibit, I saw a "+noun+". ");
-        System.out.print(noun+" was "+adjective2+ " and "+verb+". ");
+        System.out.print("The "+noun+" was "+adjective2+ " and "+verb+". ");
         System.out.print("I was "+adjective3+"!");
 
         scanner.close();
