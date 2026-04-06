@@ -13,20 +13,20 @@ public class Main {
 
         System.out.print("Enter a description: ");
         adjective1 = scanner.nextLine();
-        System.out.print("Enter a noun: ");
+        System.out.print("Enter a noun(name or animal): ");
         noun = scanner.nextLine();
         System.out.print("Enter a description: ");
         adjective2 = scanner.nextLine();
         System.out.print("Enter a continuous action: ");
         verb = scanner.nextLine();
-        System.out.print("Enter an adjective: ");
+        System.out.print("Enter an emotion: ");
         adjective3 = scanner.nextLine();
 
 
-        System.out.println("Today I went to a "+adjective1+" zoo");
-        System.out.println("In an exhibit, I saw a "+noun+".");
-        System.out.println(noun+" was "+adjective2+ " and "+verb);
-        System.out.println("I was "+adjective3);
+        System.out.print("\nToday I went to a "+adjective1+" zoo. ");
+        System.out.print("In an exhibit, I saw a "+noun+". ");
+        System.out.print(noun+" was "+adjective2+ " and "+verb+". ");
+        System.out.print("I was "+adjective3+"!");
 
         scanner.close();
     }
